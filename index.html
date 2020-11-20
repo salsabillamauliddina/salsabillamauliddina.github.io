@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Softdrink Website Landing Page</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="/img/logo (1).png" class="img"></a>
+            <div class="toggleMenu" onclick='menuToggle()';></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>let's<br><span>take a new sip</span></h2>
+                <p>Enjoy your Pepsi now<br><span>All new variant taste good!</span></p>
+                <a href="#">View All Products</a>
+            </div>
+            
+            <div class="imgBox">
+                <img src="img/black.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src='img/black.png' onclick='imgSlider("img/black.png");changeColor("#92817a")'></li>
+            <li><img src='img/silver.png' onclick='imgSlider("img/silver.png");changeColor("#f2dcbb")'></li>
+            <li><img src='img/blue.png' onclick='imgSlider("img/blue.png");changeColor("#9ad3bc")'></li>
+        </ul>
+        
+        <ul class="soc">
+            <li><a href="#"><img src="/img/facebook.png"></a></li>
+            <li><a href="#"><img src="/img/twitter.png"></a></li>
+            <li><a href="#"><img src="/img/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <!--javascript-->
+    <script src="main.js"></script>
+
+</body>
+</html>
